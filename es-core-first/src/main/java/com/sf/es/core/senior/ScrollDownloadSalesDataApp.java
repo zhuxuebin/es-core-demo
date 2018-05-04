@@ -1,13 +1,11 @@
 package com.sf.es.core.senior;
 
 import com.sf.es.core.common.EsClientUtils;
-import org.apache.lucene.queryparser.flexible.core.builders.QueryBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
-import org.elasticsearch.search.SearchHits;
 
 /**
  * Created by xuery on 2018/5/3.
